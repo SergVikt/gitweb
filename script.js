@@ -7,6 +7,6 @@ sizeSetting.oninput = function () {
   longread.style.fontSize = "small";
 };
 
-let textRandom = document.querySelector(".textRandom");
-textRandom.textContent = "hello world!";
+let textOther = document.querySelector(".text-other");
+textOther.textContent += " add javascript";
 console.log("test for git");
